@@ -23,7 +23,24 @@ namespace WebApiApp.Controllers
                 FirstName = "Tom",
                 LastName = "Sark",
                 Place = "Short Island"
-            }
+            },
+
+            new SuperHero {
+                Id = 3,
+                Name = "Ant Boy",
+                FirstName = "Bruce",
+                LastName = "Clancy",
+                Place = "Chicago"
+            },
+
+            new SuperHero {
+                Id = 4,
+                Name = "Red Canary",
+                FirstName = "Sarah",
+                LastName = "Connie",
+                Place = "Saltsburg"
+            },
+
 
         };
         [HttpGet]
